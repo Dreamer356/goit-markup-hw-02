@@ -1,13 +1,12 @@
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 h1, h2, h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
@@ -20,6 +19,84 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+header {
+  background: #fff;
+  padding: 24px 32px;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav-link:hover {
+  color: #4d5ae5;
+}
+
+.hero-section {
+  background: #2e2f42;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.button-primary {
+  background: #4d5ae5;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #404bbf;
+}
+
+.feature-title,
+.portfolio-subtitle,
+.team-member h3 {
+  font-weight: 500;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.feature-item p,
+.portfolio-description,
+.team-member p,
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  margin: 0;
+}
+
+.team-title,
+.portfolio-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2e2f42;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+
+.footer-link {
+  font-size: 24px;
+  font-weight: 700;
+  color: #4d5ae5;
+}
+
+.footer-link .studio {
+  color: #000;
 }
 
 .logo-link {
@@ -63,66 +140,4 @@ ul {
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
-}
-
-.button-primary {
-  padding: 10px 20px;
-  font-weight: 700;
-  font-size: 16px;
-  background-color: #4d5ae5;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.hero-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.features-section {
-  padding: 40px 20px;
-}
-
-.features-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.feature-item {
-  flex-basis: 200px;
-}
-
-.portfolio-section {
-  padding: 40px 20px;
-}
-
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.portfolio-item {
-  max-width: 360px;
-}
-
-.team-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.team-member {
-  max-width: 265px;
 }
