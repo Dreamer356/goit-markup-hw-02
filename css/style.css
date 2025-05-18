@@ -1,3 +1,4 @@
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -62,4 +63,66 @@ ul {
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
+}
+
+.button-primary {
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features-section {
+  padding: 40px 20px;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature-item {
+  flex-basis: 200px;
+}
+
+.portfolio-section {
+  padding: 40px 20px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.portfolio-item {
+  max-width: 360px;
+}
+
+.team-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team-member {
+  max-width: 265px;
 }
