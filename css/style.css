@@ -29,21 +29,16 @@ header {
 .nav-link {
   font-weight: 500;
   color: #2e2f42;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+.nav-link:hover {
+  color: #4d5ae5;
 }
 
 .hero-section {
   background: #2e2f42;
   color: #fff;
   text-align: center;
-  padding: 80px 20px; /* додав падінги для вигляду */
 }
 
 .hero-title {
@@ -60,9 +55,6 @@ header {
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
-  padding: 12px 32px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
 }
 
 .button-primary:hover {
@@ -95,7 +87,6 @@ header {
   color: #2e2f42;
   text-transform: capitalize;
   letter-spacing: 0.02em;
-  margin-bottom: 40px;
 }
 
 .footer-link {
@@ -104,12 +95,8 @@ header {
   color: #4d5ae5;
 }
 
-.footer-link strong:first-child {
-  color: #4d5ae5;
-}
-
-.footer-link strong:last-child {
-  color: #2e2f42;
+.footer-link .studio {
+  color: #000;
 }
 
 .logo-link {
@@ -126,10 +113,21 @@ header {
   color: #2e2f42;
 }
 
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 .contact-box {
   font-style: normal;
-  padding: 24px 32px;
-  background: #f9f9f9;
 }
 
 .contact-link {
@@ -144,8 +142,3 @@ header {
   color: #404bbf;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
