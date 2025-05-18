@@ -61,23 +61,19 @@ header {
   background-color: #404bbf;
 }
 
-.feature-title,
-.portfolio-subtitle,
-.team-member h3 {
+.feature-title {
   font-weight: 500;
-  color: #2e2f42;
-  margin-bottom: 8px;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.feature-item p,
-.portfolio-description,
-.team-member p,
-.footer-text {
+.feature-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
 }
 
 .team-title,
@@ -113,31 +109,29 @@ header {
   color: #2e2f42;
 }
 
-.nav-link {
+.contact-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.contact-box {
-  font-style: normal;
+.portfolio-section .container {
+  margin-left: 0;
+  max-width: none;
+  width: 100%;
+  padding-left: 32px;
+  padding-right: 0;
 }
 
-.contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.features-list {
+  padding: 40px 32px;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
+.feature-item {
+  margin-bottom: 24px;
 }
