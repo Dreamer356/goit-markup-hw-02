@@ -5,24 +5,23 @@ body {
   background-color: #FFFFFF;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 56px;
-  font-weight: 700;
   margin: 0;
 }
 
-h2 {
+.logo-link {
   font-family: 'Raleway', sans-serif;
-  font-size: 36px;
   font-weight: 700;
-  margin: 0;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-h3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500;
-  margin: 0;
+.logo-span {
+  color: #2e2f42;
 }
 
 a {
@@ -57,25 +56,10 @@ header {
   color: #404bbf;
 }
 
-/* Отключаем ссылки с пустым href во втором и третьем пункте, если такие есть */
 .nav-list li:nth-child(2) .nav-link[href=""],
 .nav-list li:nth-child(3) .nav-link[href=""] {
   pointer-events: none;
   cursor: default;
-}
-
-.logo-link {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.logo-span {
-  color: #2e2f42;
 }
 
 .hero-section {
@@ -115,14 +99,7 @@ header {
   letter-spacing: 0.02em;
 }
 
-.feature-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin: 0;
-}
-
+.feature-text,
 .feature-item p,
 .portfolio-description,
 .team-member p,
