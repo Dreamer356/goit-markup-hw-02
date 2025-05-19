@@ -117,4 +117,32 @@ header {
   color: #4d5ae5;
 }
 
+.logo-span {
+  color: #2e2f42;
+}
 
+.nav-list li:first-child .nav-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list li:first-child .nav-link:hover,
+.nav-list li:first-child .nav-link:focus {
+  color: #404bbf;
+}
+
+address {
+  font-style: normal;
+}
+
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
