@@ -152,32 +152,3 @@ address {
   cursor: default;
 }
 
-.footer {
-  background-color: #2e2f42;
-  padding: 20px 32px;
-}
-
-.footer-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.footer-link .logo-span {
-  color: #f4f4fd;
-  text-transform: none; 
-}
-
-.footer-text {
-  font-family: "Raleway", sans-serif;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text, #f4f4fd);
-  margin-top: 10px;
-  max-width: 400px;
-}
