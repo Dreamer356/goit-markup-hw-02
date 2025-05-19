@@ -37,8 +37,8 @@ ul {
 
 header {
   background: #fff;
-  border-bottom: 1px solid #e7e9fc;
-  padding: 24px 32px;
+  /* border-bottom: 1px solid #e7e9fc; */
+  /* padding: 24px 32px; */
 }
 
 .nav-link {
@@ -63,29 +63,29 @@ header {
 }
 
 .hero-section {
-  background: #2e2f42;
+  /* background: #2e2f42; */
   color: #fff;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .hero-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.2;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .button-primary {
-  background: #4d5ae5;
+  /* background: #4d5ae5; */
   color: #fff;
-  border: none;
+  /* border: none; */
   font-weight: 500;
   font-size: 16px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .button-primary:hover {
-  background-color: #404bbf;
+  /* background-color: #404bbf; */
 }
 
 .feature-title,
