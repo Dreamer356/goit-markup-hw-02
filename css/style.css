@@ -5,8 +5,23 @@ body {
   background-color: #FFFFFF;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: 'Raleway', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -42,10 +57,21 @@ header {
   color: #404bbf;
 }
 
+/* Отключаем ссылки с пустым href во втором и третьем пункте, если такие есть */
 .nav-list li:nth-child(2) .nav-link[href=""],
 .nav-list li:nth-child(3) .nav-link[href=""] {
   pointer-events: none;
   cursor: default;
+}
+
+.logo-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-span {
