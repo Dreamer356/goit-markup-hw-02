@@ -32,8 +32,24 @@ header {
   color: #2e2f42;
 }
 
-.nav-link:hover {
-  color: #4d5ae5;
+.nav-list li:first-child .nav-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list li:first-child .nav-link:hover,
+.nav-list li:first-child .nav-link:focus {
+  color: #404bbf;
+}
+
+.nav-list li:nth-child(2) .nav-link[href=""],
+.nav-list li:nth-child(3) .nav-link[href=""] {
+  pointer-events: none;
+  cursor: default;
+}
+
+.logo-span {
+  color: #2e2f42;
 }
 
 .hero-section {
@@ -107,30 +123,6 @@ header {
   color: #4d5ae5;
 }
 
-.logo-link {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.logo-span {
-  color: #2e2f42;
-}
-
-.nav-list li:first-child .nav-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.nav-list li:first-child .nav-link:hover,
-.nav-list li:first-child .nav-link:focus {
-  color: #404bbf;
-}
-
 address {
   font-style: normal;
 }
@@ -146,3 +138,4 @@ address {
 .contact-link:focus {
   color: #404bbf;
 }
+
