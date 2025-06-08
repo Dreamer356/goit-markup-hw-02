@@ -21,9 +21,7 @@ h1, h2, h3 {
   color: #4d5ae5;
 }
 
-.logo_span {
-  color: #2e2f42;
-}
+.logo-span { color: #2e2f42; }
 
 .nav-link {
   font-weight: 500;
